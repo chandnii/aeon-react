@@ -1,0 +1,144 @@
+/* Register.css */
+
+.register-container {
+  color: #333;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.register-logo {
+  font-size: 2rem;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+.register-logo::after {
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.register-login {
+  top: 20px;
+  right: 20px;
+}
+
+.register-login-box {
+  margin-right: 10px;
+}
+
+.register-login a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+.register-main-content {
+  display: flex;
+}
+
+.welcome-section,
+.account-type-section {
+  width: 30%;
+  margin-left: 7%;
+}
+
+.welcome-section h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.features .feature {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.features input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.account-type-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.individual, .business {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-bottom: 20px !important;
+}
+
+.account-icon{
+  border: 1px solid #ccc;
+  padding: 4px; 
+  border-radius: 10%;
+}
+
+.option-content {
+  display: flex;
+  align-items: center;
+}
+
+.option-content .text-content {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.option-content img {
+  width: 80px; /* Adjust the size as needed */
+  height: 80px; /* Adjust the size as needed */
+}
+
+.account-option {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.account-option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.continue-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+  .register-main-content {
+    flex-direction: column;
+  }
+
+  .welcome-section,
+  .account-type-section {
+    width: 100%;
+  }
+
+  .register-header,
+  .register-main-content {
+    padding: 10px;
+  }
+}

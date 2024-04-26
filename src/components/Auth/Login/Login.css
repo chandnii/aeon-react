@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.social-login {
+  width: 100%; /* Make buttons fill the width of their container */
+  padding: 10px; /* Adjust button padding */
+  
+}
+
+
+.logo {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 22%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  text-align: center;
+  z-index: 999;
+}
+
+.login-body {
+  margin-top: 20px;
+}
+
+.email-label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  margin-top: -10px; 
+}
+
+.login-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+.signup-text {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.signup-text span {
+  margin-right: 5px;
+}
+
+.signup-link {
+  text-decoration: underline;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.divider .line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider .middle {
+  margin: 0 10px;
+  font-size: 0.9rem;
+  color: #333;
+}

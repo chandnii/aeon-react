@@ -1,0 +1,180 @@
+/* AccountType.css */
+
+.add-account-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: 1px solid #ccc;
+}
+
+.account-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.account-progress-bar {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 30%;
+}
+
+.circle-line-circle {
+  display: flex;
+  align-items: center;
+  height: 1px;
+  border-top: 1px solid #000;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: white;
+}
+
+.circle.deactive {
+  background-color: #ccc;
+  border: 2px solid #ccc;
+}
+.circle.active {
+  background-color: #000;
+  border: 2px solid #ccc;
+}
+
+.line {
+  flex-grow: 1;
+  background-color: black;
+  margin: 0 10px; /* Adjust as needed for spacing */
+}
+
+.progress-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.progress-step {
+  font-size: 14px;
+}
+
+.header-links span {
+  margin-right: 10px;
+}
+
+.header-links a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.left-column {
+  flex: 1;
+  padding: 40px;
+}
+.left-column h1{
+  font-weight: 400;
+}
+
+.right-column {
+  flex: 1 0 50%;
+  padding: 20px;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.name-fields {
+  display: flex;
+}
+
+.form-group input[type="text"] {
+  width: calc(100% - 10px); 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="text"]:first-child {
+  margin-right: 10px;
+}
+
+.form-group input[type="email"] {
+  width: 34%; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="text"]:first-child{
+  margin-right: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.checkbox label {
+  font-size: 14px;
+}
+
+.account-button {
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.account-button:hover {
+  background-color: #333;
+}
+
+.alternative {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.alternative a {
+  color: #000;
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+
+  
+  .logo {
+    visibility: visible;
+  }
+  
+  .step-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    margin: 0 15px; 
+  }
+  
+.step.active .step-bullet, .step-bullet { 
+  width: 20px; 
+  height: 20px; 
+  border-radius: 50%; 
+  background-color: #000; 
+  margin-right: 8px;
+  border-right: 2px solid #000; /* New line */
+}
+
+.step.active .step-bullet { 
+  background-color: #000; 
+}
+
+.step-label { 
+    font-size: 16px;
+}

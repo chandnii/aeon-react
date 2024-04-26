@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .branding {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust spacing between steps */
+  }
+  
+  .step-marker {
+    font-size: 24px;
+  }
+  
+  .step-label {
+    margin-top: 5px; /* Adjust vertical spacing between marker and label */
+  }
+  
+  .step-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: black;
+    margin: 0 8px;
+  }
+  
+  
+  .verification-message {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .checkmark-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    margin-bottom: 24px;
+  }
+  
+  .checkmark-symbol {
+    font-size: 30px;
+  }
+  
+  button {
+    margin-top: 24px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .confirmation-page {
+    font-family: Arial, sans-serif;
+  }
+  
